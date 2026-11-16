@@ -1,0 +1,13 @@
+# venv / python
+.venv/
+__pycache__/
+*.pyc
+
+# compiled helper
+tools/jl-uboot-tool/scsiio/jlsgio
+
+# flash dumps / firmware captures
+*.bin
+flash_dump.bin
+firmware/
+*.ufw
